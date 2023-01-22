@@ -4,6 +4,7 @@ WORKDIR /app
 COPY . .
 
 #RUN npm install -g npm@9.3.1
+RUN npm install -g npm@9.3.1
 RUN npm install
 
 
